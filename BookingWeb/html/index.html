@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Complete Travel Web</title>
-        <link rel="stylesheet" type="text/css" href="C:\Users\Alireza\Desktop\BookingWeb\css\stylee.css">
+        <link rel="stylesheet" type="text/css" href="..\css\stylee.css">
         
         <link rel="stylesheet"
         href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
@@ -14,20 +14,21 @@
     
     </head>
     <body>
-        <!header--->
+        <!--header--->
         <header>
             <a href="#" class="logo">Travel</a>
             <div class="bx bx-menu" id="menu-icon"></div>
 
             <ul class="navbar">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#package">Package</a></li>
-                <li><a href="#destination">Destination</a></li>
+                <li><a href="#hotel">Hotel</a></li>
+                <li><a href="#flight">Flight</a></li>
+                <li><a href="#train">Train</a></li>
                 <li><a href="#contact">Contact Us</a></li>
             </ul>            
         </header>
 
-        <!Home section--->
+        <!--Home section--->
         <section class="home" id="home">
             <div class="home-text">
                 <h1>Fuel Mind <br>Travel</h1>
@@ -37,13 +38,13 @@
             </div>
         </section>
 
-        <!Container--->
+        <!--Container--->
         <section class="container">
             <div class="text">
                 <h2>Start your vacation <br>
                 with lots of Services!</h2>
             </div>
-            <div class="row-items">
+            <!-- <div class="row-items">
                 <div class="container-box">
                     <div class="container-img">
                         <img src="C:\Users\Alireza\Desktop\BookingWeb\images\hotel.png"
@@ -63,12 +64,139 @@
                         <img src="C:\Users\Alireza\Desktop\BookingWeb\images\train.png"
                     </div>
                     <h4>Train Ticket</h4>
-                </div>
+                </div> -->
             </div>
 
         </section>
 
-        <!link to js --->
+        <!--Hotel section--->
+        <section class="hotel" id="hotel">
+            <div class="title">
+              <h2>Hotel Reservation</h2>  
+            </div>
+
+            <div class="reservation-box">
+                <form>
+                  <div class="form-group">
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" placeholder="Enter city">
+                  </div>
+                  <div class="form-group">
+                    <label for="departure-date">Departure Date:</label>
+                    <input type="date" id="departure-date" name="departure-date">
+                  </div>
+                  <div class="form-group">
+                    <label for="return-date">Return Date:</label>
+                    <input type="date" id="return-date" name="return-date">
+                  </div>
+                  <div class="form-group">
+                    <label for="persons">Number of Persons:</label>
+                    <input type="number" id="persons" name="persons" min="1" placeholder="Enter number of persons">
+                  </div>
+                  <div class="form-group">
+                    <button type="submit">Search</button>
+                  </div>
+                </form>
+              </div>
+
+            <!-- <div class="package-content">
+                <div class="box">
+                    <div class="thum">
+                        <img src="C:\Users\Alireza\Desktop\BookingWeb\images\shiraz.jpg" >
+                        <h3>$499</h3>
+                    </div>
+
+                    <div class="dest-content">
+                        <div class="location">
+                            <h4>Shiraz</h4>
+                            <p>4h - 5h</p>
+                        </div>
+                        <div class="stars">
+                            <a href="#"><i class='bx bxs-star'></i></a>
+                            <a href="#"><i class='bx bxs-star'></i></a>
+                            <a href="#"><i class='bx bxs-star'></i></a>
+                            <a href="#"><i class='bx bxs-star'></i></a>
+                            <a href="#"><i class='bx bxs-star'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div> -->
+
+        </section>
+        
+        <!--Flight section--->
+        <section class="flight" id="flight">
+            <div class="title">
+              <h2>Flight Ticket</h2>  
+            </div>
+            <div class="ticket-form">
+                <form>
+                  <div class="form-group">
+                    <label for="origin">Origin:</label>
+                    <input type="text" id="origin" name="origin" placeholder="Enter origin">
+                  </div>
+                  <div class="form-group">
+                    <label for="destination">Destination:</label>
+                    <input type="text" id="destination" name="destination" placeholder="Enter destination">
+                  </div>
+                  <div class="form-group">
+                    <label for="departure-date">Departure Date:</label>
+                    <input type="date" id="departure-date" name="departure-date">
+                  </div>
+                  <div class="form-group">
+                    <label for="return-date">Return Date:</label>
+                    <input type="date" id="return-date" name="return-date">
+                  </div>
+                  <div class="form-group">
+                    <label for="passengers">Number of Passengers:</label>
+                    <input type="number" id="passengers" name="passengers" min="1" placeholder="Enter number of passengers">
+                  </div>
+                  <div class="form-group">
+                    <button type="submit">Search</button>
+                  </div>
+                </form>
+              </div> 
+        </section>
+
+               
+        <!--Train section--->
+        <section class="train" id="train">
+            <div class="title">
+              <h2>Train Ticket</h2>  
+            </div>
+            <div class="ticket-form">
+                <form>
+                  <div class="form-group">
+                    <label for="origin">Origin:</label>
+                    <input type="text" id="origin" name="origin" placeholder="Enter origin">
+                  </div>
+                  <div class="form-group">
+                    <label for="destination">Destination:</label>
+                    <input type="text" id="destination" name="destination" placeholder="Enter destination">
+                  </div>
+                  <div class="form-group">
+                    <label for="departure-date">Departure Date:</label>
+                    <input type="date" id="departure-date" name="departure-date">
+                  </div>
+                  <div class="form-group">
+                    <label for="return-date">Return Date:</label>
+                    <input type="date" id="return-date" name="return-date">
+                  </div>
+                  <div class="form-group">
+                    <label for="passengers">Number of Passengers:</label>
+                    <input type="number" id="passengers" name="passengers" min="1" placeholder="Enter number of passengers">
+                  </div>
+                  <div class="form-group">
+                    <button type="submit">Search</button>
+                  </div>
+                </form>
+              </div> 
+        </section>
+
+
+
+        <!--link to js --->
         <script type="text/javascript" src="js/script.js"></script>
 
     </body>

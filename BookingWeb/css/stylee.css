@@ -153,3 +153,176 @@ section{
     border: 1px solid transparent;
     transform: translateY(-3px);
 }
+.title{
+    text-align: center;
+}
+.title h2{
+    font-size: var(--h2-font);
+    line-height: 1.2;
+}
+
+.package-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;  
+}
+
+.thum{
+    position: relative;
+    transition: all .3s cubic-bezier(.455,.05,.55,.95);
+    will-change: filter;
+    cursor: pointer;
+}
+
+/* Hotel Reservation */
+.hotel{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../images/hotel.jpg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+.reservation-box {
+    background-color: whitesmoke;
+    padding: 20px;
+    border: none;
+    width: 500px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .reservation-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the form elements horizontally */
+    margin-bottom: 15px;
+  }
+  
+  label {
+    width: 120px;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="number"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Optional: Add some spacing between form groups */
+  .form-group:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  
+
+/* Flight Ticket */
+.flight{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../images/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+
+.ticket-form {
+    background-color: whitesmoke;
+    padding: 20px;
+    border: none;
+    width: 500px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .ticket-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the form elements horizontally */
+    margin-bottom: 15px;
+  }
+  
+  label {
+    width: 120px;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="number"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Optional: Add some spacing between form groups */
+  .form-group:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  /* Train Ticket */
+.train{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../images/train.jpg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}

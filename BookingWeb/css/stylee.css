@@ -189,7 +189,7 @@ section{
     align-items: center;
 }
 .reservation-box {
-    background-color: whitesmoke;
+    background-color: transparent;
     padding: 20px;
     border: none;
     width: 500px;
@@ -207,9 +207,11 @@ section{
     align-items: center;
     justify-content: center; /* Center the form elements horizontally */
     margin-bottom: 15px;
+    
   }
   
   label {
+    color: white;
     width: 120px;
     margin-right: 10px;
     font-weight: bold;
@@ -222,6 +224,7 @@ section{
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 3px;
+    background-color: #eeeeee;
   }
   
   button[type="submit"] {
@@ -229,7 +232,7 @@ section{
     color: white;
     padding: 10px 15px;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     cursor: pointer;
     font-size: 14px;
     font-weight: bold;
@@ -242,6 +245,10 @@ section{
   /* Optional: Add some spacing between form groups */
   .form-group:not(:last-child) {
     margin-bottom: 20px;
+  }
+
+  .title h2{
+    color: #898987;
   }
   
 
@@ -259,7 +266,7 @@ section{
 }
 
 .ticket-form {
-    background-color: whitesmoke;
+    background-color: transparent;
     padding: 20px;
     border: none;
     width: 500px;
@@ -283,6 +290,7 @@ section{
     width: 120px;
     margin-right: 10px;
     font-weight: bold;
+    color: black;
   }
   
   input[type="text"],
@@ -295,7 +303,7 @@ section{
   }
   
   button[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #b0bdb0;
     color: white;
     padding: 10px 15px;
     border: none;

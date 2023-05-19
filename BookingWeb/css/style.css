@@ -10,7 +10,7 @@
 body{
     font-family: 'sans';
     direction: rtl;
-    background: url(../images/bg2.jpg);
+    background: url(../images/log2.jpg);
     color: white;
 }
 ::placeholder, input{
@@ -37,7 +37,7 @@ body{
     font-size: 30px;
 }
 .login h5{
-    color: rgb(105, 67, 67);
+    color: rgb(255, 255, 255);
     margin: 8px;
     padding-bottom: 10px;
     font-size: 15px;
